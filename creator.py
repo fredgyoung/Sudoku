@@ -1,3 +1,3 @@
 """
-Create starting board for games with a unique solution
+Discover starting board for games with a unique solution
 """
