@@ -6,8 +6,8 @@ class Board(object):
         self.reset_board()
 
     def reset_board(self):
-        # Set all cells to '0'
-        self.board = [[0]*9]*9
+        # Set all cells to ' '
+        self.board = [[' ']*9]*9
         
     def change_board(self, pattern):
         self.board = pattern
@@ -91,7 +91,7 @@ class Board(object):
         print
 
 def modify_board(choice):
-    t = range(1, 10)
+    t = map(str, (range(1, 10)))
 
     # No dups in rows or cols
     if choice == 1:
